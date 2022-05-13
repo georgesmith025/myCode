@@ -1,0 +1,218 @@
+/*All code written by George Smith*/
+
+/*All screen sizes*/
+
+/* =============== All pages =============== */
+body {
+  background-color: rgb(124, 142, 143);
+  margin: 0;
+}
+  
+#bodybackground {
+  background-color: rgb(55, 101, 145);
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+header {
+  padding: 4rem 3%;
+}
+  
+header h1 {
+  margin: 0;
+}
+
+header img {
+  border: 5px black solid;
+}
+  
+main {
+  background-color: rgb(132, 172, 223);
+  padding: 0.5em 3%;
+}
+  
+main h1 {
+  padding-bottom: 3%;
+}
+  
+#content {
+  background-color: rgb(200,215,255);
+  padding: 2%;
+}
+
+img {
+  border: 5px solid rgb(132, 172, 223);
+}
+
+footer {
+  margin: 0;
+  padding: 1em 3%;
+  text-align: center;
+}
+
+#navbar {
+  background-color: rgb(200,215,255);
+}
+
+.nav { width: 100%; }
+.nav ul { list-style: none; padding: 0px; margin: 0px; font-weight: bold; text-align: center; }
+.nav ul li { display: inline-block; }
+.nav ul li a { display: block; padding: 10px 20px; text-decoration: none; color: black; border-bottom: 3px solid rgb(132, 172, 223);}
+.nav ul li a:hover { background-color: rgb(55, 101, 145); color: #fff; }
+
+@media (max-width:575px) {
+	.example-header .container { width: 100%; }
+  .nav ul { width: 100%; font-weight: normal; }
+  .nav ul li { width: 50%; float: left; }
+  .nav ul li:nth-of-type(odd) a { border-right: 1px solid rgb(200,215,255); }
+  .nav ul li a { padding: 8px 0px; border-bottom: 1px solid rgb(132, 172, 223); display: block; font-size: 1.5rem;}
+}
+
+button {
+  background-color: rgb(55, 101, 145);
+  color: white;
+}
+
+/* =============== Home page =============== */
+#mountainPortrait {
+  float: right;
+}
+
+#Archie {
+  float: left;
+}
+
+/* =============== Degree page =============== */
+.moduleTable {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+/* =============== Quiz page =============== */
+.quizTable {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding-right: 2.5%;
+}
+
+.questionOne {
+  grid-row: 1;
+  grid-column: 1 / 5;
+}
+.questionOneImage {
+  grid-row: 1;
+  grid-column: 5 / 8;
+}
+
+.questionTwo {
+  grid-row: 3;
+  grid-column: 1 / 8;
+}
+.questionTwoImage {
+  grid-row: 2;
+  grid-column: 1 / 8;
+}
+
+.questionThree {
+  grid-row: 5;
+  grid-column: 1 / 8;
+}
+.questionThreeImage {
+  grid-row: 4;
+  grid-column: 1 / 8;
+}
+
+.quizTable img {
+  width: 100%;
+}
+
+#buttonsQ1 {
+  width: 95%;
+  padding: 1%;
+}
+
+#buttonsQ2, #buttonsQ3 {
+  width: 100%;
+  padding: 1%;
+}
+
+/* =============== Canvas page =============== */
+table {
+  width: 100%;
+  background-color: white;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.tableImportant td{
+  border: 2px solid black;
+}
+
+.canvasContentTable {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-bottom: 2.5%;
+}
+
+.dataTable {
+  grid-row: 1;
+  grid-column: 1 / 3;
+}
+.canvasGraphButtons {
+  grid-row: 2;
+  grid-column: 1 / 3;
+}
+.canvasColourButtons {
+  grid-row: 3;
+  grid-column: 1 / 3;
+}
+.canvasObject {
+  grid-row: 4;
+  grid-column: 1 / 3;
+  padding-right: 2.5%;
+}
+
+canvas { 
+  border: 5px solid rgb(132, 172, 223);
+  width: 100%;
+  height: 100%;
+}
+
+.canvasGraphButtons, .canvasColourButtons{
+  padding-left: 2.5%;
+}
+
+#button_colourScheme1, #button_colourScheme2, #button_colourScheme3, #button_pieChart, #button_barGraph, #button_lineGraph{
+  width: 31.6%;
+}
+
+/* =============== Contacts page =============== */
+#contactForm {
+  background-color: rgb(200,215,255);
+  padding: 3%;
+  padding-right: 4%;
+}
+
+#GET-email {
+  width: 100%;
+}
+
+#emailContents {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submitButton, #resetButton {
+  background-color: rgb(55, 101, 145);
+  color: white;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}

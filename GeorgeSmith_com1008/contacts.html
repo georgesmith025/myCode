@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="George Smith">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Degree Programme</title>
+
+    <!--CSS stylesheets-->
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/mobileStyle.css">
+    <link rel="stylesheet" href="./css/tabletStyle.css" 
+    media="screen and (min-width: 575px)">
+    <link rel="stylesheet" href="./css/desktopStyle.css" 
+    media="screen and (min-width: 950px)">
+</head>
+
+<body>
+    <div id="bodybackground"> <!--Middle blue background colour-->
+        <header> <!--Dark blue background colour-->
+            <h1>
+                <img src="./images/logo.jpg" alt="George Smith logo" title="George Smith logo"> Degree Programme  <!--Website wide main title-->
+            </h1>
+        </header>
+        
+        <main> <!--Light blue background colour-->
+            <div class="container" id="navbar"> <!--Navigation menu-->
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="degree.html">Degree</a></li>
+                        <li><a href="quiz.html">Quiz</a></li>
+                        <li><a href="canvas.html">Canvas</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="accessibility.html">Accessibility</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="content">
+                <div id="contacts">
+                    <h1>
+                        Contacts
+                    </h1>
+                    <p>Name: George Smith</p>
+                    <p>Email: gsmith15@sheffield.ac.uk</p>
+                    <p>Address: The University of Sheffield, 211 Portobello, 
+                        Sheffield City Centre, Sheffield S1 4DP </p>
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9519.556294861768!2d-1.4799678!3d53.3810342!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf36c3526a2b08b2a!2sDepartment%20of%20Computer%20Science!5e0!3m2!1sen!2suk!4v1606336524502!5m2!1sen!2suk" 
+                    aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <br>
+            <div id="contactForm">
+                <h1>
+                    Contact form
+                </h1>
+                <form name="myform" id="myform" action="https://www.dcs.shef.ac.uk/cgi-intranet/public/FormMail.php" method="POST">
+                    <p>
+                        <input type="hidden" name="recipients"
+                        value="gsmith15@sheffield.ac.uk">
+
+                        <label for="GET-email">Your email:</label>
+                        <input id="GET-email" type="email" name="email"
+                         maxlength="50" placeholder="example@email.com" required>
+                    </p>
+                    
+                    <p>
+                        <label for="emailContents">Contents:</label>
+                        <textarea name="emailContents" id="emailContents" rows="5" 
+                        cols="50" placeholder="Enter your email here"></textarea>
+                    </p>
+
+                    <p>
+                        <input id="submitButton" type="submit" value="Send">
+                        <input id="resetButton" type="reset">
+                    </p>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; George Smith 2020</p> <!--Copyright notice-->
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+/*All code written by George Smith*/
+
+/*Desktop screen sizes*/
+
+/* =============== All pages =============== */
+header h1 {
+  font-size: 5rem;
+}
+
+header img {
+  width: 15%;
+}
+
+#content h1 {
+  font-size: 3rem;
+}
+
+#content p {
+  font-size: 2rem;
+}
+
+footer p {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* =============== Home page =============== */
+#mountainPortrait, #Archie {
+  width: 10%;
+}
+
+/* =============== Degree page =============== */
+.COM1001img {
+  grid-column: 1;
+  grid-row: 1;
+}
+.COM1001text {
+  grid-column: 3 / 5;
+  grid-row: 1;
+}
+
+.COM1002img { 
+  grid-column: 5;
+  grid-row: 1;
+}
+.COM1002text {
+  grid-column: 7 / 9;
+  grid-row: 1;
+}
+
+.COM1003img {
+  grid-column: 9;
+  grid-row: 1;
+}
+.COM1003text {
+  grid-column: 11 / 13;
+  grid-row: 1;
+}
+
+.COM1005img {
+  grid-column: 1;
+  grid-row: 2;
+}
+.COM1005text {
+  grid-column: 3 / 5;
+  grid-row: 2;
+}
+
+.COM1006img {
+  grid-column: 5;
+  grid-row: 2;
+}
+.COM1006text {
+  grid-column: 7 / 9;
+  grid-row: 2; 
+}
+
+.COM1008img {
+  grid-column: 9;
+  grid-row: 2;
+}
+.COM1008text {
+  grid-column: 11 / 13;
+  grid-row: 2;
+}
+
+.moduleTable h2 {
+  font-size: 1rem;
+}
+
+p1 {
+  font-size: 1rem;
+}
+
+.moduleTable img {
+  width: 200%;
+}
+
+/* =============== Quiz page =============== */
+.questionTwo {
+  grid-row: 3;
+  grid-column: 1 / 4;
+}
+.questionTwoImage {
+  grid-row: 2;
+  grid-column: 1 / 4;
+}
+
+.questionThree {
+  grid-row: 3;
+  grid-column: 5 / 8;
+}
+.questionThreeImage {
+  grid-row: 2;
+  grid-column: 5 / 8;
+}
+
+.quizTable img {
+  width: 100%;
+}
+
+button {
+  width: 27%;
+  height: 100px;
+  font-size: 1.5rem;
+}
+
+#button_clearQ1, #button_clearQ2, #button_clearQ3 {
+  width: 91.5%;
+  height: 60px;
+  font-size: 1rem;
+}
+
+#button_clearQ1 {
+  width: 27%;
+}
+
+.questionTwo button, .questionThree button {
+  width: 30%;
+  font-size: 1.3rem;
+}
+
+/* =============== Canvas page =============== */
+table {
+  font-size: 2rem;
+}
+.tableImportant td{
+  border: 3px solid black;
+}
+
+.dataTable {
+  grid-row: 1;
+  grid-column: 1;
+}
+.canvasGraphButtons {
+  grid-row: 2;
+  grid-column: 1;
+}
+.canvasColourButtons {
+  grid-row: 3;
+  grid-column: 1;
+}
+.canvasObject {
+  grid-row: 1 / 4;
+  grid-column: 2 / 3;
+}
+
+#button_colourScheme1, #button_colourScheme2, #button_colourScheme3 {
+  font-size: 1.25rem;
+  height: 50px;
+}
+
+/* =============== Contacts page =============== */
+#contactForm p {
+  font-size: 2rem;
+}
+
+#submitButton, #resetButton {
+  width: 20%;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+#resetButton {
+  width: 10%;
+  height: 30px;
+  font-size: 1.2rem;
+}
+
+#GET-email {
+  height: 30px;
+  font-size: 1.5rem;
+}
+
+#emailContents {
+  font-size: 1.5rem;
+}
+
+#contactForm h1 {
+  font-size: 3rem;
+}
+
+/* =============== Accessibility page =============== */
+li a {
+  font-size: 2em;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="George Smith">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Degree Programme</title>
+
+    <!--CSS stylesheets-->
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/mobileStyle.css">
+    <link rel="stylesheet" href="./css/tabletStyle.css" 
+    media="screen and (min-width: 575px)">
+    <link rel="stylesheet" href="./css/desktopStyle.css" 
+    media="screen and (min-width: 1300px)">
+</head>
+
+<body>
+    <div id="bodybackground"> <!--Middle blue background colour-->
+        <header> <!--Dark blue background colour-->
+            <h1>
+                <img src="./images/logo.jpg" alt="George Smith logo" title="George Smith logo"> Degree Programme  <!--Website wide main title-->
+            </h1>
+        </header>
+        
+        <main> <!--Light blue background colour-->
+            <div class="container" id="navbar"> <!--Navigation menu-->
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="degree.html">Degree</a></li>
+                        <li><a href="quiz.html">Quiz</a></li>
+                        <li><a href="canvas.html">Canvas</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="accessibility.html">Accessibility</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="content">
+                <h1>
+                    Canvas
+                </h1>
+
+                <div class="canvasContentTable"> <!--Questions, images, and buttons organised as a table with CSS-->
+                    <div class="dataTable">
+                        <table>
+                            <tr>
+                                <th>Days (minutes)/Activity</th>
+                                <th>Phone screen time</th>
+                                <th>Exercise</th>
+                                <th>University work</th>
+                            </tr>
+                            <tr>
+                                <td>1. Monday</td>
+                                <td>271</td>
+                                <td>75</td>
+                                <td>120</td>
+                            </tr>
+                            <tr>
+                                <td>2. Tuesday</td>
+                                <td>252</td>
+                                <td>105</td>
+                                <td>135</td>
+                            </tr>
+                            <tr>
+                                <td>3. Wednesday</td>
+                                <td>326</td>
+                                <td>45</td>
+                                <td>210</td>
+                            </tr>
+                            <tr>
+                                <td>4. Thursday</td>
+                                <td>270</td>
+                                <td>120</td>
+                                <td>240</td>
+                            </tr>
+                            <tr>
+                                <td>5. Friday</td>
+                                <td>263</td>
+                                <td>135</td>
+                                <td>180</td>
+                            </tr>
+                            <tr>
+                                <td>6. Saturday</td>
+                                <td>193</td>
+                                <td>210</td>
+                                <td>255</td>
+                            </tr>
+                            <tr>
+                                <td>7. Sunday</td>
+                                <td>384</td>
+                                <td>20</td>
+                                <td>120</td>
+                            </tr>
+                            <!--Important parts of the table highlighted-->
+                            <tr class="tableImportant">
+                                <td>Total</td>
+                                <td>1959</td>
+                                <td>710</td>
+                                <td>1260</td>
+                            </tr>
+                            <tr class="tableImportant">
+                                <td>Average</td>
+                                <td>280</td>
+                                <td>101</td>
+                                <td>180</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="canvasGraphButtons">
+                        <button name="button_pieChart" id="button_pieChart">Pie Chart</button>
+                        <button name="button_barGraph" id="button_barGraph">Bar Chart</button>
+                        <button name="button_lineGraph" id="button_lineGraph">Line Graph</button>
+                    </div>
+
+                    <div class="canvasColourButtons">
+                        <button name="button_colourScheme1" id="button_colourScheme1">Red Yellow Orange</button>
+                        <button name="button_colourScheme2" id="button_colourScheme2">Blue Purple Green</button>
+                        <button name="button_colourScheme3" id="button_colourScheme3">Black Grey White</button>
+                    </div>
+
+                    <div class="canvasObject">
+                        <canvas id="canvas_dataVisual" title="Data display"></canvas>
+                        <script src="./js/canvasVisuals.js"></script>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; George Smith 2020</p> <!--Copyright notice-->
+        </footer>
+    </div>
+</body>
+
+</html>

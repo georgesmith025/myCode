@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="George Smith">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Degree Programme</title>
+
+    <!--CSS stylesheets-->
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/mobileStyle.css">
+    <link rel="stylesheet" href="./css/tabletStyle.css" 
+    media="screen and (min-width: 575px)">
+    <link rel="stylesheet" href="./css/desktopStyle.css" 
+    media="screen and (min-width: 950px)">
+    <link rel="stylesheet" href="./css/jsStyle.css">
+</head>
+
+<body>
+    <div id="bodybackground"> <!--Middle blue background colour-->
+        <header> <!--Dark blue background colour-->
+            <h1>
+                <img src="./images/logo.jpg" alt="George Smith logo" title="George Smith logo"> Degree Programme  <!--Website wide main title-->
+            </h1>
+        </header>
+        
+        <main> <!--Light blue background colour-->
+            <div class="container" id="navbar"> <!--Navigation menu-->
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="degree.html">Degree</a></li>
+                        <li><a href="quiz.html">Quiz</a></li>
+                        <li><a href="canvas.html">Canvas</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="accessibility.html">Accessibility</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="content">
+                <h1>
+                    Pictorial quiz
+                </h1>
+                <div class="quizTable"> <!--Questions, images, and buttons organised as a table with CSS-->
+                    <!--1. Point out sheffield on the map. Multiple choice 1-7. Answer - 4-->
+                    <div class="questionOne"> 
+                        <h2>Question One</h2>
+                        <p>
+                            Which of the cities highlighted on the right is Sheffield?
+                        </p>
+                        <div id="buttonsQ1">
+                            <button name="button_option1" id="button_option1">1</button>
+                            <button name="button_option2" id="button_option2">2</button>
+                            <button name="button_option3" id="button_option3">3</button>
+                            <button name="button_option4" id="button_option4">4</button>
+                            <button name="button_option5" id="button_option5">5</button>
+                            <button name="button_option6" id="button_option6">6</button>
+                            <button name="button_option7" id="button_option7">7</button>
+                            <button name="button_clearQ1" id="button_clearQ1">Clear</button>
+                        </div>
+                        
+                        <script src="./js/questionOne.js"></script>
+                    </div>
+                    <div class="questionOneImage">
+                        <img src="./images/mapUK.jpg" 
+                        alt="Map of the uk with 7 cities highlighted"
+                        title="Map of the uk with 7 cities highlighted">
+                    </div>
+
+                    <!--2. Select the STEM building from 3 pictures. Answer - The Diamond, button 3-->
+                    <div class="questionTwo">
+                        <h2>Question Two</h2>
+                        <p>
+                            Which Sheffield University building is used primarily
+                            by the STEM departments containing computer labs?
+                        </p>
+                        <div id="buttonsQ2">
+                            <button name="button_firth" id="button_firth">Firth Court</button>
+                            <button name="button_arts" id="button_arts">Arts Tower</button>
+                            <button name="button_diamond" id="button_diamond">The Diamond</button>
+                            <button name="button_clearQ2" id="button_clearQ2">Clear</button>
+                        </div>
+
+                        <script src="./js/questionTwo.js"></script>
+                    </div>
+                    <div class="questionTwoImage">
+                        <img src="./images/sheffieldBuildings.jpg" 
+                        alt="Image showing Firth Hall, the Arts Tower, and the Diamond"
+                        title="Firth Hall, the Arts Tower, and the Diamond">
+                    </div>
+
+                    <!--3. Select the favourite coding language from 3 pictures. Answer - Web languages, button 3-->
+                    <div class="questionThree">
+                        <h2>Question Three</h2>
+                        <p>
+                            Of the coding languages presented above that I am 
+                            learning in my modules, which one is everyone's favourite?
+                        </p>
+
+                        <div id="buttonsQ3">
+                            <button name="button_ruby" id="button_ruby">Ruby</button>
+                            <button name="button_java" id="button_java">Java</button>
+                            <button name="button_web" id="button_web">Web langauges</button>
+                            <button name="button_clearQ3" id="button_clearQ3">Clear</button>
+                        </div>
+
+                        <script src="./js/questionThree.js"></script>
+                    </div>
+                    <div class="questionThreeImage">
+                        <img src="./images/courseLanguages.jpg" 
+                        alt="Image showing Ruby, Java, and Web languages"
+                        title="Ruby, Java, and Web languages">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; George Smith 2020</p> <!--Copyright notice-->
+        </footer>
+    </div>
+</body>
+
+</html>

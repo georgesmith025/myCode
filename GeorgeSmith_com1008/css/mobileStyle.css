@@ -1,0 +1,160 @@
+/*All code written by George Smith*/
+
+/*Mobile screen sizes*/
+
+/* =============== All pages =============== */
+header h1 {
+  font-size: 1.7rem;
+}
+
+header img {
+  width: 20%;
+}
+
+#content h1 {
+  font-size: 1.5rem;
+}
+
+#content p {
+  font-size: 1rem;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+}
+
+/* =============== Home page =============== */
+#mountainPortrait, #Archie {
+  width: 40%;
+}
+
+/* =============== Degree page =============== */
+.COM1001img {
+  grid-column: 1 / 6;
+  grid-row: 1;
+}
+.COM1001text {
+  grid-column: 7 / 12;
+  grid-row: 1;
+}
+
+.COM1002img { 
+  grid-column: 1 / 6;
+  grid-row: 2;
+}
+.COM1002text {
+  grid-column: 7 / 12;
+  grid-row: 2;
+}
+
+.COM1003img {
+  grid-column: 1 / 6;
+  grid-row: 3;
+}
+.COM1003text {
+  grid-column: 7 / 12;
+  grid-row: 3;
+}
+
+.COM1005img {
+  grid-column: 1 / 6;
+  grid-row: 4;
+}
+.COM1005text {
+  grid-column: 7 / 12;
+  grid-row: 4;
+}
+
+.COM1006img {
+  grid-column: 1 / 6;
+  grid-row: 5;
+}
+.COM1006text {
+  grid-column: 7 / 12;
+  grid-row: 5;
+}
+
+.COM1008img {
+  grid-column: 1 / 6;
+  grid-row: 6;
+}
+.COM1008text {
+  grid-column: 7 / 12;
+  grid-row: 6;
+}
+
+.moduleTable img {
+  width: 100%;
+}
+
+p1 {
+  font-size: 0.75rem;
+}
+
+/* =============== Quiz page =============== */
+button {
+  width: 28%;
+  height: 60px;
+  font-size: 0.65rem;
+}
+#button_clearQ1, #button_clearQ2, #button_clearQ3 {
+  width: 11%;
+  height: 30px;
+  font-size: 0.6rem;
+}
+#button_clearQ1 {
+  width: 28%;
+}
+
+.questionOne button {
+  font-size: 2rem;
+}
+
+/* =============== Canvas page =============== */
+table {
+  font-size: 0.7rem;
+}
+
+#button_colourScheme1, #button_colourScheme2, #button_colourScheme3 {
+  font-size: 0.55rem;
+  height: 40px;
+}
+
+/* =============== Contacts page =============== */
+#contactForm p {
+  font-size: 1rem;
+}
+
+#submitButton, #resetButton {
+  width: 40%;
+  height: 60px;
+  font-size: 1.5rem;
+}
+
+#resetButton {
+  width: 20%;
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+#GET-email {
+  height: 20px;
+  font-size: 0.9rem;
+}
+
+#emailContents {
+  font-size: 0.9rem;
+}
+
+#contactForm h1 {
+  font-size: 1.5rem;
+}
+
+/* =============== Accessibility page =============== */
+li a {
+  font-size: 1rem;
+}

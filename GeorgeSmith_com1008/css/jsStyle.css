@@ -1,0 +1,9 @@
+/*All code written by George Smith*/
+
+*.redBackground {
+    background-color: rgba(255, 0, 0, 0.37);
+}
+
+*.greenBackground {
+    background-color: rgba(10, 209, 10, 0.404);
+}
