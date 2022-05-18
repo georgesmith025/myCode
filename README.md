@@ -1,2 +1,2 @@
 # myCode
-This repository contains a range of code across various languages I have used over the years through various stages of education
+This repository contains a range of code from various languages. It spans several years of my education and growth in skill and experience.
