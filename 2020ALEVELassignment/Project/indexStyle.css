@@ -1,0 +1,14 @@
+body {
+ background-image: url("Restaurant.jpg");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+html{
+	height: 100%;
+}
+
+.text-centres{
+	text-align: center; 
+	margin: 0; 
+	color: #ffffff;
+	}
