@@ -1,0 +1,10 @@
+<%= erb :"common/header" %>
+<form method="post" action="/login">
+  <p>Username</p>
+  <input type="text" name="username" />
+  <p>Password</p>
+  <input type="password" name="password" />
+  <p><input type="submit" value="Submit"></p>
+  <b><%= @error %></b>
+</form>
+<%= erb :"common/footer" %>

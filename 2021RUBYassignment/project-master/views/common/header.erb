@@ -1,0 +1,38 @@
+<html lang = "en">
+
+<head>
+    <title>Mentor/Mentee application</title>
+
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <div id="bodybackground">
+        <header stylesheet="height: 100px;">
+            <h1><%= @title %></h1>
+        </header>
+        <main>
+            <div class="container" id="navbar">
+                <nav class="nav">
+                    <ul>
+                    <% if session[:logged_in] %>
+                        <li><a href="/dashboard">Dashboard</a></li>
+                        <% if request.cookies["account_type"] == "Admin" %>
+                            <li><a href="/users">Users</a></li>
+                        <% end %>
+                        <% if request.cookies["account_type"] == "Mentee" %>
+                            <li><a href="/matches">Mentors</a></li>
+                        <% end %>
+                        <li><a href="/profilePage">My profile</a></li>
+                        <li><a href="/logout">Logout</a></li>
+                    <% else %>
+                        <li><a href="/login">Login</a></li>
+                        <li><a href="/create-account">Create Account</a></li>
+                    <% end %>
+                    </ul>
+                </nav>
+            </div>
+            <hr>

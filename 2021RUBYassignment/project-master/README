@@ -1,0 +1,58 @@
+To access the project, change directory to the 'project' directory.
+For example:
+- cd ~/workspace/project
+
+Before opening the project, please make sure all of the ruby gems for the website are installed (once already in the directory) by using the following 
+in the command line:
+- bundle install
+
+To then run the website, on the command line use the following:
+- ruby app.rb
+
+To then access the website (on a different tab/window), type in the URL in the following format:
+- https://<box-name>-<port-number>.codio.io/
+Most of the time, the default port number is 4567, if any different this is told to you once you run app.rb
+For example, my box name is 'alpha-section' and my port number is '4567' which would equate to:
+- https://alpha-section-4567.codio.io/
+
+Once done visiting the website, on the terminal, please use the following keys to stop the broadcast:
+-Ctrl + C (simultaneously)
+
+To log in, if not already on the log in page, use the link in the navigation bar underneath the banner labelled 'Login'.
+There are the following accounts you can log into to test the functionality of each kind of user (Admin, Mentor, Mentee):
+Usernames, Passwords
+- admin, admin
+- mentee1, mentee1
+- mentee2, mentee2
+- mentor1, mentor1
+- mentor2, mentor2
+
+You can also create an account using the other option in the navigation bar labelled 'Create Account'
+When creating an account, your email has to have a domain of the following universities:
+- Sheffield University "@sheffield.ac.uk"
+- Leeds University "@leeds.ac.uk"
+- Newcastle University "@ncl.ac.uk"
+- Liverpool University "@liverpool.ac.uk"
+- Nottigham University "@nottingham.ac.uk"
+- Sheffield Hallam University "@shu.ac.uk"
+More universities will be able to be added soon :).
+
+As a mentee, you have the following functions in the navigation bar:
+Dashboard - from here you can see your matches which appear once a mentor approves your request to contact.
+Mentors - from here you can search for a mentor from specifying an area of interest, view their profile and see if they are right for you,
+          and then request contact.
+My Profile - from here you can look at the current logged in profile details and also edit them.
+Logout - use this to log out.
+
+As a mentor, you have the following functions in the navigation bar:
+Dashboard - from here you can see who your matches are (who you have approved contact from)
+Mentees - from here you can see what mentees have requested to match with you.
+My Profile - from here you can look at the current logged in profile details and also edit them.
+Logout - use this to log out.
+
+As an Admin, you have the following functions in the navigation bar:
+Dashboard - from here you can see nothing.
+Users - from here you can see all accounts in the database and edit them accordingly. You can navigate through the accounts using the
+        search bar at the top.
+My Profile - from here you can look at the current logged in profile details and also edit them.
+Logout - use this to log out.

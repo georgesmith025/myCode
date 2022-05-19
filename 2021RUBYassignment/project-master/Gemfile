@@ -1,0 +1,17 @@
+source "https://rubygems.org" do
+  gem "rspec"
+  gem "sequel"
+  gem "sqlite3"
+  gem "time_difference"
+  gem "require"
+  gem "require_all"
+  gem "sinatra"
+  gem "sinatra-contrib"
+  gem "thin"
+  gem "rack-test"
+  gem "logger"
+  gem "erb"
+  gem "validation"
+  gem "simplecov"
+  gem "capybara"
+end

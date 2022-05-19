@@ -1,0 +1,31 @@
+<%= erb :"common/header" %>
+
+<% if @user.nil? %>
+
+    <p class="error"><strong>Non existent account.</strong></p>
+
+<% else %>    
+
+    <% unless @user.errors.size.zero? %>
+        <p><strong class="error">Please correct the errors below:</strong></p>
+    <% end %>
+
+    <form method="post">
+        <input type="hidden" name="id" value="<%= @user.id %>" />
+        <%= erb :"common/accountForm" %>
+    </form>
+
+    <div class="warning">
+        <p><strong>WARNING! Deleting a record cannot be undone.</strong></p>
+
+        <form method="post" action="/delete">
+            <input type="hidden" name="id" value="<%= @user.id %>" />
+            <input type="submit" value="Delete" onclick="return confirm('Are you sure?')" />
+        </form>
+    </div>
+
+<% end %>
+
+<p class="navigation">Return to <a href="/profilePage">Profile Page</a>.</p>
+
+<%= erb :"common/footer"%>

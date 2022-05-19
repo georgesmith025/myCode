@@ -1,0 +1,41 @@
+<%= erb :"common/header" %>
+    
+    <div class="navigation">
+      <form>
+        <p>Enter an account name: 
+        <input type="text" name="username_search" value="<%= h @username_search %>"/>
+        <input id="submitButton" type="submit" value="Submit" /></p>
+      </form>
+    </div>
+    <% if @user.count > 0 %>
+    <table>
+    	<tr>
+    		<th>Username</th>
+        	<th>Password</th>
+        	<th>Email</th>
+        	<th>First Name</th>
+        	<th>Surname</th>
+        	<th>Account Type</th>
+        	<th>Area of Focus</th>
+            <th>Bio</th>
+            <th>Edit</th>
+    	</tr>
+    <% @user.each do |account| %>
+    	<tr>
+        	<td><%=h account.username %></td>
+            <td><%=h account.password %></td>
+            <td><%=h account.email %></td>
+        	<td><%=h account.first_name %></td>
+        	<td><%=h account.surname %></td>
+        	<td><%=h account.account_type %></td>
+        	<td><%=h account.area_of_focus %></td>
+        	<td><%=h account.bio %></td>
+        	
+        	<td><a href="/edit?id=<%= h account.id %>">Edit</a></td>
+    	</tr>
+    <% end %> 
+    </table>
+  <% else %>
+    <p>The database is empty!</p>
+  <% end %>
+<%= erb :"common/footer" %>

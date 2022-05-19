@@ -1,0 +1,13 @@
+<%= erb :"common/header" %>
+<form>
+    <p><strong>Name: </strong> <%= @name %></p>
+    <p><strong>Email: </strong> <%= @email %></p>
+    <p><strong>Area of expertise: </strong> <%= @areaOfFocus%></p>
+    <p><strong>Bio: </strong><%= @bio %></p>
+    <% if @accountType == "Mentor" && request.cookies["account_type"] == "Mentee" %>
+      <p><a href="/request?mentor=<%= @userName %>">Request</p>
+    <% end %>
+    <p><a href="/dashboard">Back</a></p>
+</form> 
+
+<%= erb :"common/footer"%>

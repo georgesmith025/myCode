@@ -1,0 +1,86 @@
+<p class="label">Account Type</p>
+<select name="account_type" id="account_type" type="text">
+  <% if (session[:logged_in]) %>
+    <option value= "<%= h @user.account_type %>" selected><%= h @user.account_type %></option>
+  <% end %>
+  <option value="Mentor">Mentor</option>
+  <option value="Mentee">Mentee</option>
+</select>
+<% @user.account_type = "account_type" %>
+<% if @user.errors.include?("account_type") %>
+  <% @user.errors["account_type"].each do |error| %>
+    <p class="error"><strong>Account Type <%= error %></strong></p>
+  <% end %>
+<% end %>
+
+<p class="label">Area of Focus</p>
+<select name="area_of_focus" id="area_of_focus" type="text">
+  <% if (session[:logged_in]) %>
+    <option value= "<%= h @user.area_of_focus %>" selected><%= h @user.area_of_focus %></option>
+  <% end %>
+  <option value="Biology">Biology</option>
+  <option value="Chemistry">Chemistry</option>
+  <option value="Computer Science">Computer Science</option>
+  <option value="Engineering">Engineering</option>
+  <option value="History">History</option>
+  <option value="Medicine">Medicine</option>
+  <option value="Physics">Physics</option>
+</select>
+<% @user.area_of_focus = "area_of_focus" %>
+<% if @user.errors.include?("area_of_focus") %>
+  <% @user.errors["area_of_focus"].each do |error| %>
+    <p class="error"><strong>Area of Focus <%= error %></strong></p>
+  <% end %>
+<% end %>
+
+<p class="label">First name</p>
+<p class="field"><input type="text" name="first_name" value="<%= h @user.first_name %>" /></p>
+<% if @user.errors.include?("first_name") %>
+  <% @user.errors["first_name"].each do |error| %>
+    <p class="error"><strong>First name <%= error %></strong></p>
+  <% end %>
+<% end %>
+
+<p class="label">Surname</p>
+<p class="field"><input type="text" name="surname" value="<%= h @user.surname %>" /></p>
+<% if @user.errors.include?("surname") %>
+  <% @user.errors["surname"].each do |error| %>
+    <p class="error"><strong>Surname <%= error %></strong></p>
+  <% end %>
+<% end %>
+
+<p class="label">Desired Username</p>
+<p class="field"><input type="text" name="username" value="<%= h @user.username %>" /></p>
+<% if @user.errors.include?("username") %>
+  <% @user.errors["username"].each do |error| %>
+    <p class="error"><strong>Desired Username <%= error %></strong></p>
+  <% end %>
+<% end %>
+
+<p class="label">Password</p>
+<p class="field"><input type="text" name="password" value="<%= h @user.password %>" /></p>
+<% if @user.errors.include?("password") %>
+  <% @user.errors["password"].each do |error| %>
+    <p class="error"><strong>Password <%= error %></strong></p>
+  <% end %>
+<% end %>
+
+<p class="label">Email</p>
+<p class="field"><input type="text" name="email" value="<%= h @user.email %>" /></p>
+<% if @user.errors.include?("email") %>
+  <% @user.errors["email"].each do |error| %>
+    <p class="error"><strong>Email <%= error %></strong></p>
+  <% end %>
+<% end %>
+
+<p class="label">Bio</p>
+<p class="field"><input type="text" name="bio" value="<%= h @user.bio %>" /></p>
+<% if @user.errors.include?("bio") %>
+  <% @user.errors["bio"].each do |error| %>
+    <p class="error"><strong>Bio <%= error %></strong></p>
+  <% end %>
+<% end %>
+
+
+
+<p class="submit"><input type="submit" value="Submit" /></p>

@@ -1,0 +1,282 @@
+# Logfile created on 2021-05-10 14:30:49 +0000 by logger.rb/v1.4.3
+I, [2021-05-10T14:30:49.688728 #571]  INFO -- : (0.000179s) PRAGMA foreign_keys = 1
+I, [2021-05-10T14:30:49.688807 #571]  INFO -- : (0.000014s) PRAGMA case_sensitive_like = 1
+I, [2021-05-10T14:30:49.700546 #571]  INFO -- : (0.000059s) SELECT sqlite_version()
+I, [2021-05-10T14:30:49.700785 #571]  INFO -- : (0.000115s) PRAGMA table_info('users')
+I, [2021-05-10T14:30:53.984873 #571]  INFO -- : (0.000145s) SELECT count(*) AS 'count' FROM `users` WHERE (`area_of_focus` LIKE '%Medicine%' ESCAPE '\') LIMIT 1
+I, [2021-05-10T14:30:53.985124 #571]  INFO -- : (0.000119s) SELECT * FROM `users` WHERE (`area_of_focus` LIKE '%Medicine%' ESCAPE '\')
+I, [2021-05-10T14:31:01.159440 #571]  INFO -- : (0.000116s) SELECT count(*) AS 'count' FROM `users` WHERE (`area_of_focus` LIKE '%Medicine%' ESCAPE '\') LIMIT 1
+I, [2021-05-10T14:31:01.159670 #571]  INFO -- : (0.000115s) SELECT * FROM `users` WHERE (`area_of_focus` LIKE '%Medicine%' ESCAPE '\')
+I, [2021-05-10T14:31:12.104746 #571]  INFO -- : (0.000136s) SELECT count(*) AS 'count' FROM `users` WHERE (`area_of_focus` LIKE '%Computer science%' ESCAPE '\') LIMIT 1
+I, [2021-05-10T14:31:15.200331 #571]  INFO -- : (0.000137s) SELECT count(*) AS 'count' FROM `users` WHERE (`account_type` LIKE '%Mentor' ESCAPE '\') LIMIT 1
+I, [2021-05-10T14:31:15.200743 #571]  INFO -- : (0.000251s) SELECT * FROM `users` WHERE (`account_type` LIKE '%Mentor' ESCAPE '\')
+I, [2021-05-10T14:32:37.678196 #571]  INFO -- : (0.000171s) SELECT * FROM `Users` WHERE (`username` = 'mentee1')
+I, [2021-05-10T14:32:37.678484 #571]  INFO -- : (0.000150s) SELECT * FROM `users`
+I, [2021-05-10T14:32:40.168677 #571]  INFO -- : (0.000147s) SELECT * FROM `users` WHERE `id` = '5'
+I, [2021-05-10T14:32:40.168889 #571]  INFO -- : (0.000100s) SELECT * FROM `users` WHERE `id` = '5'
+I, [2021-05-10T14:32:47.084882 #571]  INFO -- : (0.000138s) SELECT count(*) AS 'count' FROM `users` WHERE (`account_type` LIKE '%Mentor' ESCAPE '\') LIMIT 1
+I, [2021-05-10T14:32:47.085200 #571]  INFO -- : (0.000169s) SELECT * FROM `users` WHERE (`account_type` LIKE '%Mentor' ESCAPE '\')
+I, [2021-05-10T14:32:54.415886 #571]  INFO -- : (0.000971s) SELECT count(*) AS 'count' FROM `users` WHERE (`area_of_focus` LIKE '%Engineering%' ESCAPE '\') LIMIT 1
+I, [2021-05-10T14:32:57.583511 #571]  INFO -- : (0.000133s) SELECT count(*) AS 'count' FROM `users` WHERE (`account_type` LIKE '%Mentor' ESCAPE '\') LIMIT 1
+I, [2021-05-10T14:32:57.584382 #571]  INFO -- : (0.000729s) SELECT * FROM `users` WHERE (`account_type` LIKE '%Mentor' ESCAPE '\')
+I, [2021-05-10T14:33:33.214486 #571]  INFO -- : (0.000111s) SELECT count(*) AS 'count' FROM `users` WHERE (`area_of_focus` LIKE '%Medicine%' ESCAPE '\') LIMIT 1
+I, [2021-05-10T14:33:33.214721 #571]  INFO -- : (0.000115s) SELECT * FROM `users` WHERE (`area_of_focus` LIKE '%Medicine%' ESCAPE '\')
+I, [2021-05-13T19:24:23.391975 #278]  INFO -- : (0.000190s) PRAGMA foreign_keys = 1
+I, [2021-05-13T19:24:23.395817 #278]  INFO -- : (0.000041s) PRAGMA case_sensitive_like = 1
+I, [2021-05-13T19:24:23.412157 #278]  INFO -- : (0.000082s) SELECT sqlite_version()
+I, [2021-05-13T19:24:23.412455 #278]  INFO -- : (0.000132s) PRAGMA table_info('users')
+I, [2021-05-13T19:24:37.081943 #278]  INFO -- : (0.000183s) SELECT * FROM `users` WHERE (`username` = 'mentee1') LIMIT 1
+I, [2021-05-13T19:24:37.082264 #278]  INFO -- : (0.000104s) SELECT * FROM `Users` WHERE (`username` = 'mentee1')
+I, [2021-05-13T19:24:37.344687 #278]  INFO -- : (0.000137s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentee` = 'mentee1') LIMIT 1
+I, [2021-05-13T19:24:37.344901 #278]  INFO -- : (0.000089s) SELECT * FROM `matches` WHERE (`mentee` = 'mentee1')
+I, [2021-05-13T19:24:44.022680 #278]  INFO -- : (0.000135s) SELECT count(*) AS 'count' FROM `users` WHERE (`account_type` LIKE '%Mentor' ESCAPE '\') LIMIT 1
+I, [2021-05-13T19:24:44.023010 #278]  INFO -- : (0.000179s) SELECT * FROM `users` WHERE (`account_type` LIKE '%Mentor' ESCAPE '\')
+I, [2021-05-13T19:24:57.101144 #278]  INFO -- : (0.000137s) SELECT count(*) AS 'count' FROM `users` WHERE (`account_type` LIKE '%Mentor' ESCAPE '\') LIMIT 1
+I, [2021-05-13T19:24:57.101512 #278]  INFO -- : (0.000170s) SELECT * FROM `users` WHERE (`account_type` LIKE '%Mentor' ESCAPE '\')
+I, [2021-05-13T19:32:49.499414 #299]  INFO -- : (0.000178s) PRAGMA foreign_keys = 1
+I, [2021-05-13T19:32:49.499518 #299]  INFO -- : (0.000015s) PRAGMA case_sensitive_like = 1
+I, [2021-05-13T19:32:49.512539 #299]  INFO -- : (0.000082s) SELECT sqlite_version()
+I, [2021-05-13T19:32:49.512831 #299]  INFO -- : (0.000130s) PRAGMA table_info('users')
+I, [2021-05-13T19:34:10.709469 #299]  INFO -- : (0.000177s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%Medicine%') ESCAPE '\') LIMIT 1
+I, [2021-05-13T19:34:10.709760 #299]  INFO -- : (0.000128s) SELECT * FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%Medicine%') ESCAPE '\')
+I, [2021-05-13T19:34:24.064251 #299]  INFO -- : (0.000152s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%medicine%') ESCAPE '\') LIMIT 1
+I, [2021-05-13T19:34:24.064611 #299]  INFO -- : (0.000191s) SELECT * FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%medicine%') ESCAPE '\')
+I, [2021-05-13T19:34:32.421038 #299]  INFO -- : (0.000152s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%computer science%') ESCAPE '\') LIMIT 1
+I, [2021-05-13T19:34:32.421380 #299]  INFO -- : (0.000194s) SELECT * FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%computer science%') ESCAPE '\')
+I, [2021-05-13T19:34:39.580463 #299]  INFO -- : (0.000193s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%math%') ESCAPE '\') LIMIT 1
+I, [2021-05-13T19:34:47.827599 #299]  INFO -- : (0.000167s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%PhYsIcS%') ESCAPE '\') LIMIT 1
+I, [2021-05-13T19:34:47.827872 #299]  INFO -- : (0.000118s) SELECT * FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%PhYsIcS%') ESCAPE '\')
+I, [2021-05-13T19:34:50.824612 #299]  INFO -- : (0.000154s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`account_type`) LIKE UPPER('%Mentor') ESCAPE '\') LIMIT 1
+I, [2021-05-13T19:34:50.824927 #299]  INFO -- : (0.000163s) SELECT * FROM `users` WHERE (UPPER(`account_type`) LIKE UPPER('%Mentor') ESCAPE '\')
+I, [2021-05-13T19:34:59.423300 #299]  INFO -- : (0.000152s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%bIoLoGy%') ESCAPE '\') LIMIT 1
+I, [2021-05-13T19:34:59.423652 #299]  INFO -- : (0.000184s) SELECT * FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%bIoLoGy%') ESCAPE '\')
+I, [2021-05-13T19:43:00.277462 #326]  INFO -- : (0.000197s) PRAGMA foreign_keys = 1
+I, [2021-05-13T19:43:00.277571 #326]  INFO -- : (0.000016s) PRAGMA case_sensitive_like = 1
+I, [2021-05-13T19:43:00.290175 #326]  INFO -- : (0.000077s) SELECT sqlite_version()
+I, [2021-05-13T19:43:00.290462 #326]  INFO -- : (0.000127s) PRAGMA table_info('users')
+I, [2021-05-13T19:43:04.691327 #326]  INFO -- : (0.000153s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%bIoLoGy%') ESCAPE '\') LIMIT 1
+I, [2021-05-13T19:43:04.691637 #326]  INFO -- : (0.000153s) SELECT * FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%bIoLoGy%') ESCAPE '\')
+I, [2021-05-13T19:43:58.208137 #350]  INFO -- : (0.000176s) PRAGMA foreign_keys = 1
+I, [2021-05-13T19:43:58.208235 #350]  INFO -- : (0.000014s) PRAGMA case_sensitive_like = 1
+I, [2021-05-13T19:43:58.220518 #350]  INFO -- : (0.000072s) SELECT sqlite_version()
+I, [2021-05-13T19:43:58.220792 #350]  INFO -- : (0.000123s) PRAGMA table_info('users')
+I, [2021-05-13T19:44:01.921405 #350]  INFO -- : (0.000226s) SELECT * FROM `Users` WHERE (`username` = 'mentee1')
+I, [2021-05-13T19:44:01.921838 #350]  INFO -- : (0.000244s) SELECT * FROM `users`
+I, [2021-05-13T19:44:14.777085 #350]  INFO -- : (0.000729s) SELECT * FROM `users` WHERE (`username` = 'mentor1') LIMIT 1
+I, [2021-05-13T19:44:14.777415 #350]  INFO -- : (0.000129s) SELECT * FROM `Users` WHERE (`username` = 'mentor1')
+I, [2021-05-13T19:44:15.083533 #350]  INFO -- : (0.000134s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-13T19:44:15.083785 #350]  INFO -- : (0.000117s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-13T19:44:23.332437 #350]  INFO -- : (0.000158s) SELECT * FROM `Users` WHERE (`username` = 'mentor1')
+I, [2021-05-13T19:44:23.333553 #350]  INFO -- : (0.000994s) SELECT * FROM `users`
+I, [2021-05-13T19:44:25.427161 #350]  INFO -- : (0.000868s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-13T19:44:25.427416 #350]  INFO -- : (0.000122s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-13T21:08:26.691271 #228]  INFO -- : (0.000223s) PRAGMA foreign_keys = 1
+I, [2021-05-13T21:08:26.691382 #228]  INFO -- : (0.000016s) PRAGMA case_sensitive_like = 1
+I, [2021-05-13T21:08:26.704570 #228]  INFO -- : (0.000077s) SELECT sqlite_version()
+I, [2021-05-13T21:08:26.704856 #228]  INFO -- : (0.000129s) PRAGMA table_info('users')
+I, [2021-05-14T02:47:24.023111 #165]  INFO -- : (0.001460s) PRAGMA foreign_keys = 1
+I, [2021-05-14T02:47:24.023299 #165]  INFO -- : (0.000020s) PRAGMA case_sensitive_like = 1
+I, [2021-05-14T02:47:24.037608 #165]  INFO -- : (0.000099s) SELECT sqlite_version()
+I, [2021-05-14T02:47:24.037924 #165]  INFO -- : (0.000137s) PRAGMA table_info('users')
+I, [2021-05-14T02:52:16.165869 #192]  INFO -- : (0.000185s) PRAGMA foreign_keys = 1
+I, [2021-05-14T02:52:16.165975 #192]  INFO -- : (0.000014s) PRAGMA case_sensitive_like = 1
+I, [2021-05-14T02:52:16.179390 #192]  INFO -- : (0.000094s) SELECT sqlite_version()
+I, [2021-05-14T02:52:16.179715 #192]  INFO -- : (0.000140s) PRAGMA table_info('users')
+I, [2021-05-14T02:52:23.992474 #192]  INFO -- : (0.000179s) SELECT * FROM `users` WHERE (`username` = 'mentor') LIMIT 1
+I, [2021-05-14T02:52:29.188345 #192]  INFO -- : (0.000812s) SELECT * FROM `users` WHERE (`username` = 'mentor') LIMIT 1
+I, [2021-05-14T02:52:36.963538 #192]  INFO -- : (0.000175s) SELECT * FROM `users` WHERE (`username` = 'mentor1') LIMIT 1
+I, [2021-05-14T02:52:36.964402 #192]  INFO -- : (0.000121s) SELECT * FROM `Users` WHERE (`username` = 'mentor1')
+I, [2021-05-14T02:52:37.069848 #192]  INFO -- : (0.000140s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T02:52:37.070066 #192]  INFO -- : (0.000094s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T02:52:43.176502 #192]  INFO -- : (0.000172s) SELECT * FROM `Users` WHERE (`username` = 'mentor1')
+I, [2021-05-14T02:52:43.176826 #192]  INFO -- : (0.000164s) SELECT * FROM `users`
+I, [2021-05-14T02:52:44.556643 #192]  INFO -- : (0.000139s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T02:52:44.556872 #192]  INFO -- : (0.000096s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T02:52:59.725790 #192]  INFO -- : (0.000163s) SELECT * FROM `Users` WHERE (`username` = 'mentor1')
+I, [2021-05-14T02:52:59.726070 #192]  INFO -- : (0.000165s) SELECT * FROM `users`
+I, [2021-05-14T02:53:00.717624 #192]  INFO -- : (0.000144s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T02:53:00.717873 #192]  INFO -- : (0.000104s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T02:53:08.374024 #192]  INFO -- : (0.000149s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T02:53:08.374262 #192]  INFO -- : (0.000095s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T02:53:27.549619 #192]  INFO -- : (0.000141s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T02:53:27.549857 #192]  INFO -- : (0.000106s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T02:56:30.014212 #218]  INFO -- : (0.000177s) PRAGMA foreign_keys = 1
+I, [2021-05-14T02:56:30.014319 #218]  INFO -- : (0.000015s) PRAGMA case_sensitive_like = 1
+I, [2021-05-14T02:56:30.027622 #218]  INFO -- : (0.000088s) SELECT sqlite_version()
+I, [2021-05-14T02:56:30.027952 #218]  INFO -- : (0.000136s) PRAGMA table_info('users')
+I, [2021-05-14T02:56:31.784336 #218]  INFO -- : (0.000149s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T02:56:31.784555 #218]  INFO -- : (0.000089s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T02:56:35.542591 #218]  INFO -- : (0.000132s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T02:56:35.543593 #218]  INFO -- : (0.000119s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T02:56:42.332958 #218]  INFO -- : (0.000304s) SELECT * FROM `users` WHERE (`username` = 'DTaylor') LIMIT 1
+I, [2021-05-14T02:56:42.333528 #218]  INFO -- : (0.000172s) SELECT * FROM `Users` WHERE (`username` = 'DTaylor')
+I, [2021-05-14T02:56:42.438234 #218]  INFO -- : (0.000132s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentee` = 'DTaylor') LIMIT 1
+I, [2021-05-14T02:56:42.438432 #218]  INFO -- : (0.000078s) SELECT * FROM `matches` WHERE (`mentee` = 'DTaylor')
+I, [2021-05-14T02:56:43.739006 #218]  INFO -- : (0.000244s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`account_type`) LIKE UPPER('%Mentor') ESCAPE '\') LIMIT 1
+I, [2021-05-14T02:56:43.739566 #218]  INFO -- : (0.000310s) SELECT * FROM `users` WHERE (UPPER(`account_type`) LIKE UPPER('%Mentor') ESCAPE '\')
+I, [2021-05-14T02:56:53.020729 #218]  INFO -- : (0.000156s) SELECT * FROM `Users` WHERE (`username` = 'mentor1')
+I, [2021-05-14T02:56:53.021029 #218]  INFO -- : (0.000153s) SELECT * FROM `users`
+I, [2021-05-14T02:56:57.794311 #218]  INFO -- : (0.000165s) SELECT * FROM `Users` WHERE (`username` = 'biomentor')
+I, [2021-05-14T02:56:57.794598 #218]  INFO -- : (0.000163s) SELECT * FROM `users`
+I, [2021-05-14T02:57:02.795581 #218]  INFO -- : (0.000186s) SELECT * FROM `Users` WHERE (`username` = 'mentor1')
+I, [2021-05-14T02:57:02.795863 #218]  INFO -- : (0.000168s) SELECT * FROM `users`
+I, [2021-05-14T02:57:06.833390 #218]  INFO -- : (0.000207s) SELECT * FROM `Users` WHERE (`username` = 'test')
+I, [2021-05-14T02:57:06.833674 #218]  INFO -- : (0.000169s) SELECT * FROM `users`
+I, [2021-05-14T02:57:12.840291 #218]  INFO -- : (0.000147s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%Computer Science%') ESCAPE '\') LIMIT 1
+I, [2021-05-14T02:57:12.840592 #218]  INFO -- : (0.000142s) SELECT * FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%Computer Science%') ESCAPE '\')
+I, [2021-05-14T02:57:17.639046 #218]  INFO -- : (0.000238s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%computer science%') ESCAPE '\') LIMIT 1
+I, [2021-05-14T02:57:17.639538 #218]  INFO -- : (0.000246s) SELECT * FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%computer science%') ESCAPE '\')
+I, [2021-05-14T02:57:18.869607 #218]  INFO -- : (0.000149s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%computer science%') ESCAPE '\') LIMIT 1
+I, [2021-05-14T02:57:18.869910 #218]  INFO -- : (0.000146s) SELECT * FROM `users` WHERE (UPPER(`area_of_focus`) LIKE UPPER('%computer science%') ESCAPE '\')
+I, [2021-05-14T02:57:19.439150 #218]  INFO -- : (0.000150s) SELECT count(*) AS 'count' FROM `users` WHERE (UPPER(`account_type`) LIKE UPPER('%Mentor') ESCAPE '\') LIMIT 1
+I, [2021-05-14T02:57:19.439478 #218]  INFO -- : (0.000174s) SELECT * FROM `users` WHERE (UPPER(`account_type`) LIKE UPPER('%Mentor') ESCAPE '\')
+I, [2021-05-14T02:57:20.037086 #218]  INFO -- : (0.000158s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentee` = 'DTaylor') LIMIT 1
+I, [2021-05-14T02:57:20.037354 #218]  INFO -- : (0.000112s) SELECT * FROM `matches` WHERE (`mentee` = 'DTaylor')
+I, [2021-05-14T02:59:29.700175 #243]  INFO -- : (0.000191s) PRAGMA foreign_keys = 1
+I, [2021-05-14T02:59:29.700278 #243]  INFO -- : (0.000016s) PRAGMA case_sensitive_like = 1
+I, [2021-05-14T02:59:29.713145 #243]  INFO -- : (0.000081s) SELECT sqlite_version()
+I, [2021-05-14T02:59:29.713480 #243]  INFO -- : (0.000149s) PRAGMA table_info('users')
+I, [2021-05-14T02:59:40.486121 #243]  INFO -- : (0.000262s) SELECT * FROM `users` WHERE (`username` = 'mentor1') LIMIT 1
+I, [2021-05-14T02:59:40.486603 #243]  INFO -- : (0.000159s) SELECT * FROM `Users` WHERE (`username` = 'mentor1')
+I, [2021-05-14T02:59:40.590428 #243]  INFO -- : (0.000137s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T02:59:40.590635 #243]  INFO -- : (0.000083s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T03:06:01.928952 #272]  INFO -- : (0.000179s) PRAGMA foreign_keys = 1
+I, [2021-05-14T03:06:01.929057 #272]  INFO -- : (0.000014s) PRAGMA case_sensitive_like = 1
+I, [2021-05-14T03:06:01.942766 #272]  INFO -- : (0.000092s) SELECT sqlite_version()
+I, [2021-05-14T03:06:01.943080 #272]  INFO -- : (0.000138s) PRAGMA table_info('users')
+I, [2021-05-14T03:06:04.959191 #272]  INFO -- : (0.000161s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T03:06:04.959479 #272]  INFO -- : (0.000124s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T03:06:36.800564 #272]  INFO -- : (0.000053s) BEGIN
+I, [2021-05-14T03:06:36.801204 #272]  INFO -- : (0.000285s) INSERT INTO `users` (`username`, `password`, `first_name`, `surname`, `account_type`, `area_of_focus`, `email`, `bio`) VALUES ('burn', 'burn', 'burn', 'burn', 'Mentor', 'Biology', 'burn@sheffield.ac.uk', 'burn')
+I, [2021-05-14T03:06:36.801608 #272]  INFO -- : (0.000139s) SELECT * FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:06:36.906204 #272]  INFO -- : (0.104485s) COMMIT
+I, [2021-05-14T03:06:41.393481 #272]  INFO -- : (0.000253s) SELECT * FROM `users` WHERE (`username` = 'burn') LIMIT 1
+I, [2021-05-14T03:06:41.394644 #272]  INFO -- : (0.000891s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:06:41.498226 #272]  INFO -- : (0.000142s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'burn') LIMIT 1
+I, [2021-05-14T03:06:45.111639 #272]  INFO -- : (0.000184s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:06:45.111970 #272]  INFO -- : (0.000166s) SELECT * FROM `users`
+I, [2021-05-14T03:06:47.192899 #272]  INFO -- : (0.000165s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:06:47.193110 #272]  INFO -- : (0.000086s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:06:50.155881 #272]  INFO -- : (0.000268s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:06:50.156223 #272]  INFO -- : (0.000148s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:06:50.274791 #272]  INFO -- : (0.118416s) DELETE FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:06:50.475291 #272]  INFO -- : (0.000133s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'burn') LIMIT 1
+I, [2021-05-14T03:06:53.999099 #272]  INFO -- : (0.000150s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:06:53.999392 #272]  INFO -- : (0.000166s) SELECT * FROM `users`
+I, [2021-05-14T03:08:40.462726 #294]  INFO -- : (0.000181s) PRAGMA foreign_keys = 1
+I, [2021-05-14T03:08:40.462841 #294]  INFO -- : (0.000017s) PRAGMA case_sensitive_like = 1
+I, [2021-05-14T03:09:06.455938 #295]  INFO -- : (0.000200s) PRAGMA foreign_keys = 1
+I, [2021-05-14T03:09:06.456054 #295]  INFO -- : (0.000017s) PRAGMA case_sensitive_like = 1
+I, [2021-05-14T03:09:06.471159 #295]  INFO -- : (0.000105s) SELECT sqlite_version()
+I, [2021-05-14T03:09:06.471517 #295]  INFO -- : (0.000149s) PRAGMA table_info('users')
+I, [2021-05-14T03:09:08.706045 #295]  INFO -- : (0.000166s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'burn') LIMIT 1
+I, [2021-05-14T03:09:11.704559 #295]  INFO -- : (0.000135s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'burn') LIMIT 1
+I, [2021-05-14T03:09:12.965384 #295]  INFO -- : (0.000182s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:09:12.965708 #295]  INFO -- : (0.000166s) SELECT * FROM `users`
+I, [2021-05-14T03:09:23.222361 #295]  INFO -- : (0.000143s) SELECT * FROM `users` WHERE (`username` = 'burn') LIMIT 1
+I, [2021-05-14T03:09:45.039542 #295]  INFO -- : (0.000049s) BEGIN
+I, [2021-05-14T03:09:45.040055 #295]  INFO -- : (0.000254s) INSERT INTO `users` (`username`, `password`, `first_name`, `surname`, `account_type`, `area_of_focus`, `email`, `bio`) VALUES ('burner', 'burner', 'burner', 'burner', 'Mentor', 'Biology', 'burner@sheffield.ac.uk', 'burner')
+I, [2021-05-14T03:09:45.040334 #295]  INFO -- : (0.000128s) SELECT * FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:09:45.172824 #295]  INFO -- : (0.132379s) COMMIT
+I, [2021-05-14T03:09:50.900514 #295]  INFO -- : (0.000174s) SELECT * FROM `users` WHERE (`username` = 'admin') LIMIT 1
+I, [2021-05-14T03:09:50.900848 #295]  INFO -- : (0.000104s) SELECT * FROM `Users` WHERE (`username` = 'admin')
+I, [2021-05-14T03:09:52.961824 #295]  INFO -- : (0.000224s) SELECT * FROM `users`
+I, [2021-05-14T03:09:56.799114 #295]  INFO -- : (0.000175s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:09:56.799324 #295]  INFO -- : (0.000087s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:09:59.812644 #295]  INFO -- : (0.000155s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:09:59.812893 #295]  INFO -- : (0.000100s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:09:59.943657 #295]  INFO -- : (0.130661s) DELETE FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:10:00.162116 #295]  INFO -- : (0.000258s) SELECT * FROM `users`
+I, [2021-05-14T03:10:21.498557 #295]  INFO -- : (0.000037s) BEGIN
+I, [2021-05-14T03:10:21.499044 #295]  INFO -- : (0.000253s) INSERT INTO `users` (`username`, `password`, `first_name`, `surname`, `account_type`, `area_of_focus`, `email`, `bio`) VALUES ('burn', 'burn', 'burn', 'burn', 'Mentor', 'Biology', 'burn@sheffield.ac.uk', 'burn')
+I, [2021-05-14T03:10:21.499347 #295]  INFO -- : (0.000134s) SELECT * FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:10:21.605027 #295]  INFO -- : (0.105590s) COMMIT
+I, [2021-05-14T03:10:25.988211 #295]  INFO -- : (0.000168s) SELECT * FROM `users` WHERE (`username` = 'burn') LIMIT 1
+I, [2021-05-14T03:10:25.988513 #295]  INFO -- : (0.000097s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:10:26.087358 #295]  INFO -- : (0.000137s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'burn') LIMIT 1
+I, [2021-05-14T03:10:27.399313 #295]  INFO -- : (0.000160s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:10:27.399606 #295]  INFO -- : (0.000176s) SELECT * FROM `users`
+I, [2021-05-14T03:10:28.598473 #295]  INFO -- : (0.000151s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:10:28.598686 #295]  INFO -- : (0.000083s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:10:31.007034 #295]  INFO -- : (0.000161s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:10:31.007262 #295]  INFO -- : (0.000109s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:10:31.124457 #295]  INFO -- : (0.117097s) DELETE FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:10:52.734690 #295]  INFO -- : (0.000216s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:11:09.682516 #295]  INFO -- : (0.000039s) BEGIN
+I, [2021-05-14T03:11:09.682977 #295]  INFO -- : (0.000238s) INSERT INTO `users` (`username`, `password`, `first_name`, `surname`, `account_type`, `area_of_focus`, `email`, `bio`) VALUES ('burn', 'burn', 'burn', 'burn', 'Mentor', 'Biology', 'burn@sheffield.ac.uk', 'burn')
+I, [2021-05-14T03:11:09.683228 #295]  INFO -- : (0.000102s) SELECT * FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:11:09.776777 #295]  INFO -- : (0.093449s) COMMIT
+I, [2021-05-14T03:11:12.108498 #295]  INFO -- : (0.000174s) SELECT * FROM `users` WHERE (`username` = 'burn') LIMIT 1
+I, [2021-05-14T03:11:12.108820 #295]  INFO -- : (0.000101s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:11:12.206854 #295]  INFO -- : (0.000136s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'burn') LIMIT 1
+I, [2021-05-14T03:11:15.045396 #295]  INFO -- : (0.000197s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:11:15.045667 #295]  INFO -- : (0.000157s) SELECT * FROM `users`
+I, [2021-05-14T03:11:16.185380 #295]  INFO -- : (0.000199s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:11:16.185594 #295]  INFO -- : (0.000098s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:11:18.701902 #295]  INFO -- : (0.000165s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:11:18.702099 #295]  INFO -- : (0.000089s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:11:18.806561 #295]  INFO -- : (0.104377s) DELETE FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:11:19.001850 #295]  INFO -- : (0.000132s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'burn') LIMIT 1
+I, [2021-05-14T03:13:42.724898 #295]  INFO -- : (0.000144s) SELECT * FROM `Users` WHERE (`username` = 'N/A')
+I, [2021-05-14T03:13:42.725167 #295]  INFO -- : (0.000157s) SELECT * FROM `users`
+I, [2021-05-14T03:13:58.415264 #295]  INFO -- : (0.000038s) BEGIN
+I, [2021-05-14T03:13:58.415686 #295]  INFO -- : (0.000222s) INSERT INTO `users` (`username`, `password`, `first_name`, `surname`, `account_type`, `area_of_focus`, `email`, `bio`) VALUES ('burn', 'burn', 'burn', 'burn', 'Mentor', 'Biology', 'burn@sheffield.ac.uk', 'burn')
+I, [2021-05-14T03:13:58.415919 #295]  INFO -- : (0.000099s) SELECT * FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:13:58.517533 #295]  INFO -- : (0.101538s) COMMIT
+I, [2021-05-14T03:14:02.625885 #295]  INFO -- : (0.000160s) SELECT * FROM `users` WHERE (`username` = 'burn') LIMIT 1
+I, [2021-05-14T03:14:02.626198 #295]  INFO -- : (0.000104s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:14:02.723225 #295]  INFO -- : (0.000128s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'burn') LIMIT 1
+I, [2021-05-14T03:14:03.417240 #295]  INFO -- : (0.000170s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:14:03.417551 #295]  INFO -- : (0.000166s) SELECT * FROM `users`
+I, [2021-05-14T03:14:04.437938 #295]  INFO -- : (0.000151s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:14:04.438133 #295]  INFO -- : (0.000085s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:14:06.390583 #295]  INFO -- : (0.000151s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:14:06.390791 #295]  INFO -- : (0.000097s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:14:06.507921 #295]  INFO -- : (0.117038s) DELETE FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:17:47.152099 #324]  INFO -- : (0.000187s) PRAGMA foreign_keys = 1
+I, [2021-05-14T03:17:47.152210 #324]  INFO -- : (0.000019s) PRAGMA case_sensitive_like = 1
+I, [2021-05-14T03:17:47.165279 #324]  INFO -- : (0.000088s) SELECT sqlite_version()
+I, [2021-05-14T03:17:47.165679 #324]  INFO -- : (0.000140s) PRAGMA table_info('users')
+I, [2021-05-14T03:17:51.471924 #324]  INFO -- : (0.000156s) SELECT * FROM `Users` WHERE (`username` = 'burn')
+I, [2021-05-14T03:17:51.472239 #324]  INFO -- : (0.000163s) SELECT * FROM `users`
+I, [2021-05-14T03:18:31.125923 #324]  INFO -- : (0.000049s) BEGIN
+I, [2021-05-14T03:18:31.126414 #324]  INFO -- : (0.000235s) INSERT INTO `users` (`username`, `password`, `first_name`, `surname`, `account_type`, `area_of_focus`, `email`, `bio`) VALUES ('TestEmail', 'TestEmail', 'testing', 'emails', 'Mentor', 'Biology', 'Email@gmail.com', 'email')
+I, [2021-05-14T03:18:31.126681 #324]  INFO -- : (0.000120s) SELECT * FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:18:31.254755 #324]  INFO -- : (0.127974s) COMMIT
+I, [2021-05-14T03:18:51.913440 #324]  INFO -- : (0.000205s) SELECT * FROM `users` WHERE (`username` = 'TestEmail') LIMIT 1
+I, [2021-05-14T03:18:51.913798 #324]  INFO -- : (0.000123s) SELECT * FROM `Users` WHERE (`username` = 'TestEmail')
+I, [2021-05-14T03:18:52.014441 #324]  INFO -- : (0.000147s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'TestEmail') LIMIT 1
+I, [2021-05-14T03:18:54.195739 #324]  INFO -- : (0.000157s) SELECT * FROM `Users` WHERE (`username` = 'TestEmail')
+I, [2021-05-14T03:18:54.196016 #324]  INFO -- : (0.000167s) SELECT * FROM `users`
+I, [2021-05-14T03:18:58.012294 #324]  INFO -- : (0.000163s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:18:58.012523 #324]  INFO -- : (0.000091s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:19:01.904406 #324]  INFO -- : (0.000237s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:19:01.904745 #324]  INFO -- : (0.000161s) SELECT * FROM `users` WHERE `id` = '14'
+I, [2021-05-14T03:19:02.007545 #324]  INFO -- : (0.102652s) DELETE FROM `users` WHERE `id` = 14
+I, [2021-05-14T03:21:08.255838 #348]  INFO -- : (0.000180s) PRAGMA foreign_keys = 1
+I, [2021-05-14T03:21:08.255943 #348]  INFO -- : (0.000015s) PRAGMA case_sensitive_like = 1
+I, [2021-05-14T03:21:08.268960 #348]  INFO -- : (0.000080s) SELECT sqlite_version()
+I, [2021-05-14T03:21:08.269255 #348]  INFO -- : (0.000128s) PRAGMA table_info('users')
+I, [2021-05-14T03:21:11.880422 #348]  INFO -- : (0.000149s) SELECT * FROM `Users` WHERE (`username` = 'TestEmail')
+I, [2021-05-14T03:21:11.880720 #348]  INFO -- : (0.000155s) SELECT * FROM `users`
+I, [2021-05-14T03:31:00.236571 #313]  INFO -- : (0.000170s) PRAGMA foreign_keys = 1
+I, [2021-05-14T03:31:00.236661 #313]  INFO -- : (0.000018s) PRAGMA case_sensitive_like = 1
+I, [2021-05-14T03:31:00.248710 #313]  INFO -- : (0.000055s) SELECT sqlite_version()
+I, [2021-05-14T03:31:00.248961 #313]  INFO -- : (0.000116s) PRAGMA table_info('users')
+I, [2021-05-14T03:31:05.347786 #313]  INFO -- : (0.000139s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T03:31:05.348020 #313]  INFO -- : (0.000094s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T03:31:25.114139 #313]  INFO -- : (0.000224s) SELECT * FROM `users` WHERE (`username` = 'mentee1') LIMIT 1
+I, [2021-05-14T03:31:25.114567 #313]  INFO -- : (0.000156s) SELECT * FROM `Users` WHERE (`username` = 'mentee1')
+I, [2021-05-14T03:31:25.226330 #313]  INFO -- : (0.000159s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentee` = 'mentee1') LIMIT 1
+I, [2021-05-14T03:31:25.226634 #313]  INFO -- : (0.000138s) SELECT * FROM `matches` WHERE (`mentee` = 'mentee1')
+I, [2021-05-14T03:32:23.231221 #313]  INFO -- : (0.000200s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentee` = 'mentee1') LIMIT 1
+I, [2021-05-14T03:32:23.231551 #313]  INFO -- : (0.000138s) SELECT * FROM `matches` WHERE (`mentee` = 'mentee1')
+I, [2021-05-14T03:32:31.731799 #313]  INFO -- : (0.000233s) SELECT * FROM `users` WHERE (`username` = 'mentor1') LIMIT 1
+I, [2021-05-14T03:32:31.732196 #313]  INFO -- : (0.000156s) SELECT * FROM `Users` WHERE (`username` = 'mentor1')
+I, [2021-05-14T03:32:31.915274 #313]  INFO -- : (0.000099s) SELECT count(*) AS 'count' FROM `matches` WHERE (`mentor` = 'mentor1') LIMIT 1
+I, [2021-05-14T03:32:31.916101 #313]  INFO -- : (0.000723s) SELECT * FROM `matches` WHERE (`mentor` = 'mentor1')
+I, [2021-05-14T03:32:39.633350 #313]  INFO -- : (0.000174s) SELECT * FROM `users` WHERE (`username` = 'admin') LIMIT 1
+I, [2021-05-14T03:32:39.633707 #313]  INFO -- : (0.000142s) SELECT * FROM `Users` WHERE (`username` = 'admin')
+I, [2021-05-14T03:32:43.011292 #313]  INFO -- : (0.000363s) SELECT * FROM `users`
+I, [2021-05-14T03:32:46.027221 #313]  INFO -- : (0.000203s) SELECT * FROM `Users` WHERE (`username` = 'admin')
+I, [2021-05-14T03:32:46.027520 #313]  INFO -- : (0.000172s) SELECT * FROM `users`

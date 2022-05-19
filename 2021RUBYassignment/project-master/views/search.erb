@@ -1,0 +1,39 @@
+<%= erb :"common/header" %>
+<% if @account_type == "Mentee"%>    
+    <div class="navigation">
+        <form>
+            <p>Area of Interest: 
+            <input type="text" name="AoF_search" value="<%= h @AoF_search %>"/>
+            <input id="submitButton" type="submit" value="Submit" /></p>
+        </form>
+    </div>
+    <% if @user.count > 0 %>
+    <table>
+    	<tr>
+        	<th>Name</th>
+        	<th>Area of Focus</th>
+            <th>See Profile</th>
+    	</tr>
+    <% @user.each do |account| %>
+    	<% if account.getAccountType == @target %>
+        <tr>
+        	<td><%=h account.first_name + " " + account.surname %></td>
+        	<td><%=h account.area_of_focus %></td>
+        	<td><a href="/view?user=<%= h account.username %>">View</a></td>
+    	</tr>
+        <% end %>
+    <% end %> 
+    </table>
+  <% else %>
+    <p>The database is empty!</p>
+  <% end %>
+<% end %>
+
+
+<% if @account_type == "Mentor" %>
+    <div class="navigation">
+        <p>Mentees Requesting A Meeting: </p>
+    </div>
+<% end %>
+
+<%= erb :"common/footer" %>

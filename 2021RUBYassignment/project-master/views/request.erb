@@ -1,0 +1,7 @@
+<%= erb :"common/header" %>
+<% if @status == "new" %>
+<p>You have requested contact with <%= @mentorName %></p>
+<% else %>
+<p>You have already requested contact with this mentor</p>
+<% end %>
+<%= erb :"common/footer"%>

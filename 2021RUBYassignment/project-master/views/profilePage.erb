@@ -1,0 +1,12 @@
+<%= erb :"common/header" %>
+<form>
+    <p><strong>Your Username: </strong> <%= @userName %></p>
+    <p><strong>Name: </strong> <%= @name %></p>
+    <p><strong>Email: </strong> <%= @email %></p>
+    <p><strong>Area of expertise: </strong> <%= @areaOfFocus%></p>
+    <p><strong>Bio: </strong><%= @bio %></p>
+   
+    <p><a href="/edit?id=<%= @id %>">Edit</a></p>
+</form> 
+
+<%= erb :"common/footer"%>

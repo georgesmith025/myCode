@@ -1,0 +1,39 @@
+<%= erb :"common/header" %>
+  <% if session[:logged_in] %>
+      <p>Hello <%= request.cookies["name"] =%>, welcome to your dashboard!</p>
+  <% else %>
+      <p>Hi, please log in to see your dashboard!</p>
+  <% end %>
+  
+  <% if @matchesDataset == nil || @matchesDataset.count == 0  %>
+    <p>No current matches</p>
+  <% else %>
+  <table>
+    <tr>
+      <th>Mentee</th>
+      <% if @account_type == "Mentor"  %>
+          <th></th>
+          <th></th>
+      <% end %>
+      <th>Status</th>
+    </tr>
+    <% @matchesDataset.each do |record| %>
+      <tr>
+        <% if @account_type == "Mentor"  %>
+        <td><a href="/view?user=<%= record[:mentee] %>"><%= record[:mentee] %></a></td>
+          <% if record[:status] == "Pending" %>
+            <td><a href="/confirmation?mentee=<%= record[:mentee] %>&status=Accepted">Accept</a></td>
+            <td><a href="/confirmation?mentee=<%= record[:mentee] %>&status=Rejected">Reject</a></td>
+          <% elsif record[:status] == "Accepted" %>
+            <td><a>-------</a></td>
+            <td><a>-------</a></td>
+          <% end %>
+        <% elsif @account_type == "Mentee" %>
+          <td><a href="/view?user=<%= record[:mentor] %>"><%= record[:mentor] %></a></td>
+        <% end %>
+        <td><%= record[:status] %></td>
+      </tr>
+    <% end %>
+  </table>
+  <% end %>
+<%= erb :"common/footer" %>

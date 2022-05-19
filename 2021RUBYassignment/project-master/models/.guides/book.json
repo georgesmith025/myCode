@@ -1,0 +1,17 @@
+{
+ "name": "COM1001 ",
+ "children": [
+  {
+   "title": "Page 1",
+   "id": "334599fd-3495-fc45-1fa7-4706ed9cd2fe",
+   "pageId": "334599fd-3495-fc45-1fa7-4706ed9cd2fe",
+   "type": "page"
+  },
+  {
+   "title": "Page 2",
+   "id": "e43c6e85-0224-0c92-9e0d-681b0e4b04c4",
+   "pageId": "e43c6e85-0224-0c92-9e0d-681b0e4b04c4",
+   "type": "page"
+  }
+ ]
+}
